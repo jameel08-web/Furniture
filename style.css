@@ -71,7 +71,7 @@
 }
 .collection{
     text-align: center;
-    padding: 30px;
+    padding: 20px;
 }
 .collitem{
     display: flex;
@@ -113,7 +113,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 100px;
     flex-wrap: wrap;
     gap: 10px;
     overflow: hidden;
@@ -123,7 +122,7 @@
 }
 .work{
     text-align: center;
-    padding: 50px;
+    padding: 20px;
 }
 
 .mailing{
@@ -200,7 +199,10 @@
     padding-left: 15px !important;
 }
 .spaceimg img {
-    width: 400px;
+    width: 250px;
+}
+.servies{
+    padding: 25px;
 }
 .space{
    flex-direction: column;
@@ -215,8 +217,8 @@
 }
 .collitem{
     display: grid;
-   grid-template-columns:1fr 1fr;
-    padding: 50px;
+   grid-template-columns:auto;
+    padding: 10px;
     gap: 10px;
 }
 .collitem img{
@@ -225,15 +227,19 @@
   .colsec1 img{
     margin-top: 0px !important;
 }
-.rangecard{
-   display: grid;
-   grid-template-columns:1fr 1fr;
-  padding: 0px;
-  gap: 10px;  
+.collitem{
+    display: grid;
+   grid-template-columns:auto;
+  
+    gap: 10px;
 }
 .rangecard img{
     width: 100%;
 }
+.range{
+    padding: 10px;
+}
+
 }
 @media (max-width: 576px) and (min-width: 430px){
 .herosection {
@@ -251,11 +257,11 @@
     padding: 15px 100px;
 } 
 .collitem{
-     display: grid;
-   grid-template-columns:1fr;
-    padding: 30px;
+    display: grid;
+   grid-template-columns:auto;
+    padding: 10px;
     gap: 10px;
-  }
+}
   .colsec1 img{
     margin-top: 0px !important;
 }
@@ -276,16 +282,17 @@
 
 .rangecard{
  display: grid;
-   grid-template-columns:1fr;
+   grid-template-columns:auto;
   padding: 0px;
   gap: 10px;  
 }
+
 }
 
 
 
 
-@media (max-width: 430px) {
+@media (max-width: 356) {
 .herosection {
   position: relative;
 }
@@ -299,10 +306,10 @@
 } 
 .collitem{
     display: grid;
-   grid-template-columns:1fr;
-    padding: 30px;
+   grid-template-columns:auto;
+    padding: 10px;
     gap: 10px;
-  }
+}
   .colsec1 img{
     margin-top: 0px;
 }
@@ -312,7 +319,7 @@
 
 .rangecard{
   display: grid;
-   grid-template-columns:1fr;
+   grid-template-columns:auto;
   padding: 0px;
   gap: 10px;  
 }
