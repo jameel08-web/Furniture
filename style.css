@@ -1,0 +1,319 @@
+:root {
+    --main-color: #054C73;
+    --second-color: white;
+    --third-color: #DFE9F4;
+}
+
+.navbar-brand{
+    color: var(--main-color);
+    font-weight: bolder;
+    font-size: 25px;
+}
+.navbar-nav{
+    color: black;
+    font-size: 16px;
+}
+
+/* herosection */
+.herosection{
+    background-image: url("./Asset/scandinavian-interior-mockup-wall-decal-background\ 1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 650px;
+    background-position: center center;
+    
+}
+.herobox{
+     background-color: var(--third-color);
+    width: 450px;
+    padding: 30px;
+    bottom: 150px;
+    right: 50px;
+    border-radius: 20px;
+}
+
+.herobox h2 {
+    color: var(--main-color);
+    font-weight: bolder;
+}
+.herobtn{
+    border-radius: 50px;
+    background-color: var(--main-color);
+    padding: 5px 30px;
+    color: white;
+    font-weight: bolder;
+}
+.servies{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 150px;
+    background-color: var(--third-color);
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.sersec1{
+    display: flex;
+    justify-content: center;   
+    align-items: center; 
+}
+
+.sersec1 i{
+    font-size: 35px;
+    padding-right: 20px;
+}
+.servies h5 {
+    margin-bottom: 0px;
+}
+
+.servies p {
+    margin-bottom: 0px;
+}
+.collection{
+    text-align: center;
+    padding: 30px;
+}
+.collitem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 150px;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.collection img{
+    width: 350px;
+}
+.colsec1 img{
+    margin-top: 50px;
+}
+
+.space{
+    background-color: var(--third-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 150px;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.spacetxt{
+    width: 680px;
+}
+
+.spaceimg img {
+    width: 400px;
+}
+.range{
+    text-align: center;
+    padding: 50px;
+    border-bottom: 3px solid lightgray;
+}
+.rangecard{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 100px;
+    flex-wrap: wrap;
+    gap: 10px;
+    overflow: hidden;
+}
+.item1 h5{
+    margin-top: 10px;
+}
+.work{
+    text-align: center;
+    padding: 50px;
+}
+
+.mailing{
+    padding: 50px;
+    background-color: var(--third-color);
+    text-align: center;
+}
+
+.mailing h3{
+    font-weight: bolder;
+}
+
+.mailing p{
+    word-spacing: 2px;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.search input{
+    max-width: 300px;
+    border-radius: 0;
+}
+.btn{
+    background-color: var(--main-color);
+    color: white;
+    border-radius: 0;
+}
+
+.footer{
+    background-color: var(--main-color);
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    flex-wrap: wrap;
+}
+.footsec1{
+    width: 600px;
+}
+.footercard{
+ display: flex;
+ justify-content: center;
+ gap: 5px;
+ flex-wrap: wrap;
+}
+.footsec2{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+
+ .herobox{
+    width: 400px;
+    padding:20px;
+    bottom: 150px;
+    right: 30px;
+    border-radius: 20px;
+}
+.navbar-brand{
+    padding-left: 15px !important;
+}
+.spaceimg img {
+    width: 400px;
+}
+.space{
+   flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding: 50px;
+
+}
+.spacetxt{
+   width: 100% !important;
+}
+.collitem{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+  .colsec1 img{
+    margin-top: 0px !important;
+}
+.rangecard{
+   display: flex;
+   flex-direction: column;
+   padding: 50px;
+}
+}
+
+@media (max-width: 576px) and (min-width: 430px){
+.herosection {
+  position: relative;
+}
+
+.herobox {
+  width: 300px;
+  margin: 20px auto;
+}
+.navbar-brand{
+    padding-left: 10px !important;
+}
+.servies{
+    padding: 15px 100px;
+} 
+.collitem{
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+  }
+  .colsec1 img{
+    margin-top: 0px !important;
+}
+.space img{
+    width: 100%;
+}
+.space{
+   flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding: 50px;
+
+}
+.spacetxt{
+   width: 100% !important;
+}
+
+.rangecard{
+   justify-content: center;
+   gap: 20px;
+   padding: 20px;
+}
+}
+
+
+
+
+@media (max-width: 430px) {
+.herosection {
+  position: relative;
+}
+
+.herobox {
+  margin: 20px auto;
+  width: 300px;
+}
+.servies{
+    padding: 15px 100px;
+} 
+.collitem{
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+  }
+  .colsec1 img{
+    margin-top: 0px;
+}
+.spaceimg img {
+    width: 300px;
+}
+
+.rangecard{
+    justify-content: center;
+    gap: 20px;
+    padding: 15px;
+}
+.space{
+   flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+}
+.spacetxt{
+   width: 100% !important;
+}
+
+
+}
